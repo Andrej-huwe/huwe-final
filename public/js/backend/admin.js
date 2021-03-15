@@ -556,7 +556,7 @@ var Backend = {}; // common variable used in all the files of the backend
         },
 
         /**
-         * Blog
+         * blog
          *
          */
         Blog: {
@@ -586,7 +586,7 @@ var Backend = {}; // common variable used in all the files of the backend
                 this.selectors.toDisplay.select2();
                 this.selectors.status.select2();
 
-                //For Blog datetimepicker for publish_datetime
+                //For blog datetimepicker for publish_datetime
                 this.selectors.datetimepicker1.datetimepicker({
                     // locale: locale,
                     format: 'YYYY-MM-DD HH:mm',

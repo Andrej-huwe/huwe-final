@@ -24,7 +24,7 @@ class BlogTagsControllerTest extends BaseApiTestCase
     ];
 
     /**
-     * Test List Blog Tag.
+     * Test List blog Tag.
      */
     public function testListBlogTag()
     {
@@ -40,7 +40,7 @@ class BlogTagsControllerTest extends BaseApiTestCase
     }
 
     /**
-     * Test List Blog Tag Fetch All.
+     * Test List blog Tag Fetch All.
      */
     public function testListBlogTagFetchAll()
     {
@@ -57,7 +57,7 @@ class BlogTagsControllerTest extends BaseApiTestCase
     }
 
     /**
-     * Test Show Blog Tag.
+     * Test Show blog Tag.
      */
     public function testShowBlogTag()
     {
@@ -73,7 +73,7 @@ class BlogTagsControllerTest extends BaseApiTestCase
     }
 
     /**
-     * Test Delete Blog Tag.
+     * Test Delete blog Tag.
      */
     public function testDeleteBlogTag()
     {
@@ -86,7 +86,7 @@ class BlogTagsControllerTest extends BaseApiTestCase
     }
 
     /**
-     * Test Store Blog Tag Validation.
+     * Test Store blog Tag Validation.
      */
     public function testStoreBlogTagValidation()
     {
@@ -102,7 +102,7 @@ class BlogTagsControllerTest extends BaseApiTestCase
     }
 
     /**
-     * Test Store Blog Tag.
+     * Test Store blog Tag.
      */
     public function testStoreBlogTag()
     {
@@ -119,7 +119,7 @@ class BlogTagsControllerTest extends BaseApiTestCase
     }
 
     /**
-     * Test Update Blog Tag.
+     * Test Update blog Tag.
      */
     public function testUpdateBlogTag()
     {

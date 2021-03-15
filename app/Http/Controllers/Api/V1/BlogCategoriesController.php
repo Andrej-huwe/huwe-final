@@ -12,11 +12,11 @@ use App\Repositories\Backend\BlogCategoriesRepository;
 use Illuminate\Http\Response;
 
 /**
- * @group Blog Categories Management
+ * @group blog Categories Management
  *
  * Class BlogCategoriesController
  *
- * APIs for Blog Categories Management
+ * APIs for blog Categories Management
  *
  * @authenticated
  */
@@ -40,7 +40,7 @@ class BlogCategoriesController extends APIController
     }
 
     /**
-     * Get all Blog Categories.
+     * Get all blog Categories.
      *
      * This endpoint provides a paginated list of all blog categories. You can customize how many records you want in each
      * returned response as well as sort records based on a key in specific order.
@@ -65,12 +65,12 @@ class BlogCategoriesController extends APIController
     }
 
     /**
-     * Gives a specific Blog Category.
+     * Gives a specific blog Category.
      *
-     * This endpoint provides you a single Blog Category
-     * The Blog Category is identified based on the ID provided as url parameter.
+     * This endpoint provides you a single blog Category
+     * The blog Category is identified based on the ID provided as url parameter.
      *
-     * @urlParam id required The ID of the Blog Category
+     * @urlParam id required The ID of the blog Category
      *
      * @responseFile status=401 scenario="API token not provided" responses/unauthenticated.json
      * @responseFile responses/blog-category/blog-category-show.json
@@ -86,9 +86,9 @@ class BlogCategoriesController extends APIController
     }
 
     /**
-     * Create a new Blog Category.
+     * Create a new blog Category.
      *
-     * This endpoint lets you create new Blog Category
+     * This endpoint lets you create new blog Category
      *
      * @responseFile status=401 scenario="API token not provided" responses/unauthenticated.json
      * @responseFile status=201 responses/blog-category/blog-category-store.json
@@ -107,12 +107,12 @@ class BlogCategoriesController extends APIController
     }
 
     /**
-     * Update Blog Category.
+     * Update blog Category.
      *
-     * This endpoint allows you to update existing Blog Category with new data.
-     * The Blog Category to be updated is identified based on the ID provided as url parameter.
+     * This endpoint allows you to update existing blog Category with new data.
+     * The blog Category to be updated is identified based on the ID provided as url parameter.
      *
-     * @urlParam id required The ID of the Blog Category
+     * @urlParam id required The ID of the blog Category
      *
      * @responseFile status=401 scenario="API token not provided" responses/unauthenticated.json
      * @responseFile status=200 responses/blog-category/blog-category-update.json
@@ -130,12 +130,12 @@ class BlogCategoriesController extends APIController
     }
 
     /**
-     * Delete Blog Category.
+     * Delete blog Category.
      *
-     * This endpoint allows you to delete a Blog Category
-     * The Blog Category to be deleted is identified based on the ID provided as url parameter.
+     * This endpoint allows you to delete a blog Category
+     * The blog Category to be deleted is identified based on the ID provided as url parameter.
      *
-     * @urlParam id required The ID of the Blog Category
+     * @urlParam id required The ID of the blog Category
      *
      * @responseFile status=401 scenario="API token not provided" responses/unauthenticated.json
      * @responseFile status=204 scenario="When the record is deleted" responses/blog-category/blog-category-destroy.json

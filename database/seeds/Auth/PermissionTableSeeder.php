@@ -403,11 +403,11 @@ class PermissionTableSeeder extends Seeder
         $viewBackend->save();
 
         /**
-         * Blog Categories Management.
+         * blog Categories Management.
          */
         $viewBackend = new Permission();
         $viewBackend->name = 'view-blog-category';
-        $viewBackend->display_name = 'View Blog Categories Management';
+        $viewBackend->display_name = 'View blog Categories Management';
         $viewBackend->sort = 32;
         $viewBackend->created_by = 1;
         $viewBackend->updated_by = null;
@@ -418,7 +418,7 @@ class PermissionTableSeeder extends Seeder
 
         $viewBackend = new Permission();
         $viewBackend->name = 'create-blog-category';
-        $viewBackend->display_name = 'Create Blog Category';
+        $viewBackend->display_name = 'Create blog Category';
         $viewBackend->sort = 33;
         $viewBackend->created_by = 1;
         $viewBackend->updated_by = null;
@@ -429,7 +429,7 @@ class PermissionTableSeeder extends Seeder
 
         $viewBackend = new Permission();
         $viewBackend->name = 'edit-blog-category';
-        $viewBackend->display_name = 'Edit Blog Category';
+        $viewBackend->display_name = 'Edit blog Category';
         $viewBackend->sort = 34;
         $viewBackend->created_by = 1;
         $viewBackend->updated_by = null;
@@ -440,7 +440,7 @@ class PermissionTableSeeder extends Seeder
 
         $viewBackend = new Permission();
         $viewBackend->name = 'delete-blog-category';
-        $viewBackend->display_name = 'Delete Blog Category';
+        $viewBackend->display_name = 'Delete blog Category';
         $viewBackend->sort = 35;
         $viewBackend->created_by = 1;
         $viewBackend->updated_by = null;
@@ -450,11 +450,11 @@ class PermissionTableSeeder extends Seeder
         $viewBackend->save();
 
         /**
-         * Blog Tags Management.
+         * blog Tags Management.
          */
         $viewBackend = new Permission();
         $viewBackend->name = 'view-blog-tag';
-        $viewBackend->display_name = 'View Blog Tags Management';
+        $viewBackend->display_name = 'View blog Tags Management';
         $viewBackend->sort = 36;
         $viewBackend->created_by = 1;
         $viewBackend->updated_by = null;
@@ -465,7 +465,7 @@ class PermissionTableSeeder extends Seeder
 
         $viewBackend = new Permission();
         $viewBackend->name = 'create-blog-tag';
-        $viewBackend->display_name = 'Create Blog Tag';
+        $viewBackend->display_name = 'Create blog Tag';
         $viewBackend->sort = 37;
         $viewBackend->created_by = 1;
         $viewBackend->updated_by = null;
@@ -476,7 +476,7 @@ class PermissionTableSeeder extends Seeder
 
         $viewBackend = new Permission();
         $viewBackend->name = 'edit-blog-tag';
-        $viewBackend->display_name = 'Edit Blog Tag';
+        $viewBackend->display_name = 'Edit blog Tag';
         $viewBackend->sort = 38;
         $viewBackend->created_by = 1;
         $viewBackend->updated_by = null;
@@ -487,7 +487,7 @@ class PermissionTableSeeder extends Seeder
 
         $viewBackend = new Permission();
         $viewBackend->name = 'delete-blog-tag';
-        $viewBackend->display_name = 'Delete Blog Tag';
+        $viewBackend->display_name = 'Delete blog Tag';
         $viewBackend->sort = 39;
         $viewBackend->created_by = 1;
         $viewBackend->updated_by = null;
@@ -512,7 +512,7 @@ class PermissionTableSeeder extends Seeder
 
         $viewBackend = new Permission();
         $viewBackend->name = 'create-blog';
-        $viewBackend->display_name = 'Create Blog';
+        $viewBackend->display_name = 'Create blog';
         $viewBackend->sort = 41;
         $viewBackend->created_by = 1;
         $viewBackend->updated_by = null;
@@ -523,7 +523,7 @@ class PermissionTableSeeder extends Seeder
 
         $viewBackend = new Permission();
         $viewBackend->name = 'edit-blog';
-        $viewBackend->display_name = 'Edit Blog';
+        $viewBackend->display_name = 'Edit blog';
         $viewBackend->sort = 42;
         $viewBackend->created_by = 1;
         $viewBackend->updated_by = null;
@@ -534,7 +534,7 @@ class PermissionTableSeeder extends Seeder
 
         $viewBackend = new Permission();
         $viewBackend->name = 'delete-blog';
-        $viewBackend->display_name = 'Delete Blog';
+        $viewBackend->display_name = 'Delete blog';
         $viewBackend->sort = 43;
         $viewBackend->created_by = 1;
         $viewBackend->updated_by = null;

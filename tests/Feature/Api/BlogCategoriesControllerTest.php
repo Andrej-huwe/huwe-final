@@ -24,7 +24,7 @@ class BlogCategoriesControllerTest extends BaseApiTestCase
     ];
 
     /**
-     * Test List Blog Category.
+     * Test List blog Category.
      */
     public function testListBlogCategory()
     {
@@ -42,7 +42,7 @@ class BlogCategoriesControllerTest extends BaseApiTestCase
     }
 
     /**
-     * Test List Blog Category Fetch All.
+     * Test List blog Category Fetch All.
      */
     public function testListBlogCategoryFetchAll()
     {
@@ -59,7 +59,7 @@ class BlogCategoriesControllerTest extends BaseApiTestCase
     }
 
     /**
-     * Test Show Blog Category.
+     * Test Show blog Category.
      */
     public function testShowBlogCategory()
     {
@@ -75,7 +75,7 @@ class BlogCategoriesControllerTest extends BaseApiTestCase
     }
 
     /**
-     * Test Delete Blog Category.
+     * Test Delete blog Category.
      */
     public function testDeleteBlogCategory()
     {
@@ -88,7 +88,7 @@ class BlogCategoriesControllerTest extends BaseApiTestCase
     }
 
     /**
-     * Test Store Blog Category Validation.
+     * Test Store blog Category Validation.
      */
     public function testStoreBlogCategoryValidation()
     {
@@ -104,7 +104,7 @@ class BlogCategoriesControllerTest extends BaseApiTestCase
     }
 
     /**
-     * Test Store Blog Category.
+     * Test Store blog Category.
      */
     public function testStoreBlogCategory()
     {
@@ -121,7 +121,7 @@ class BlogCategoriesControllerTest extends BaseApiTestCase
     }
 
     /**
-     * Test Update Blog Category.
+     * Test Update blog Category.
      */
     public function testUpdateBlogCategory()
     {

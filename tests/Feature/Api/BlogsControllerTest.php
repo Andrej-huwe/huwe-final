@@ -34,7 +34,7 @@ class BlogsControllerTest extends BaseApiTestCase
     ];
 
     /**
-     * Test List Blog.
+     * Test List blog.
      */
     public function testListBlog()
     {
@@ -50,7 +50,7 @@ class BlogsControllerTest extends BaseApiTestCase
     }
 
     /**
-     * Test List Blog Fetch All.
+     * Test List blog Fetch All.
      */
     public function testListBlogFetchAll()
     {
@@ -67,7 +67,7 @@ class BlogsControllerTest extends BaseApiTestCase
     }
 
     /**
-     * Test Show Blog.
+     * Test Show blog.
      */
     public function testShowBlog()
     {
@@ -83,7 +83,7 @@ class BlogsControllerTest extends BaseApiTestCase
     }
 
     /**
-     * Test Delete Blog.
+     * Test Delete blog.
      */
     public function testDeleteBlog()
     {
@@ -96,7 +96,7 @@ class BlogsControllerTest extends BaseApiTestCase
     }
 
     /**
-     * Test Store Blog Validation.
+     * Test Store blog Validation.
      */
     public function testStoreBlogValidation()
     {
@@ -116,7 +116,7 @@ class BlogsControllerTest extends BaseApiTestCase
     }
 
     /**
-     * Test Store Blog.
+     * Test Store blog.
      */
     public function testStoreBlog()
     {
@@ -132,7 +132,7 @@ class BlogsControllerTest extends BaseApiTestCase
     }
 
     /**
-     * Test Update Blog.
+     * Test Update blog.
      */
     public function testUpdateBlog()
     {
@@ -141,7 +141,7 @@ class BlogsControllerTest extends BaseApiTestCase
         ]);
 
         $payload = array_merge($this->getPayload(), [
-            'name' => 'Blog Name Updated',
+            'name' => 'blog Name Updated',
             'categories' => [
                 'test new category 1',
                 'test new category 2',
@@ -152,7 +152,7 @@ class BlogsControllerTest extends BaseApiTestCase
             ->assertOk()
             ->assertJson([
                 'data' => [
-                    'name' => 'Blog Name Updated',
+                    'name' => 'blog Name Updated',
                     'categories' => [
                         [
                             'name' => 'test new category 1',

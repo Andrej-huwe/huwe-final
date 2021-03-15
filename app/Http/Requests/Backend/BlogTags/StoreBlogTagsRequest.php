@@ -40,8 +40,8 @@ class StoreBlogTagsRequest extends FormRequest
     public function messages()
     {
         return [
-            'name.required' => 'Blog tag name must required',
-            'name.max' => 'Blog tag may not be greater than 191 characters.',
+            'name.required' => 'blog tag name must required',
+            'name.max' => 'blog tag may not be greater than 191 characters.',
         ];
     }
 

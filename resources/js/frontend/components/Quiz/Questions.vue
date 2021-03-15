@@ -393,7 +393,7 @@ export default {
         }
         window.speechSynthesis.speak(msg);
       } else {
-        alert("Pardon, ale Váš prehliadač nepodporuje text do hlasu!");
+        alert("Váš prehliadač nepodporuje text do hlasu... 😢");
       }
 
     },
@@ -407,7 +407,7 @@ export default {
           setTimeout(() => {
             bus.$emit('answered', 0);
             recognition.stop()
-          }, 800000)
+          }, 8000)
         };
 
         recognition.onresult = function(event) {

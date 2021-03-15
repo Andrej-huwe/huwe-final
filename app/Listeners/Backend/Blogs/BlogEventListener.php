@@ -10,7 +10,7 @@ class BlogEventListener
     /**
      * @var string
      */
-    private $history_slug = 'Blog';
+    private $history_slug = 'blog';
 
     /**
      * @param $event

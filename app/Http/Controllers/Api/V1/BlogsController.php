@@ -12,11 +12,11 @@ use App\Repositories\Backend\BlogsRepository;
 use Illuminate\Http\Response;
 
 /**
- * @group Blog Management
+ * @group blog Management
  *
  * Class BlogsController
  *
- * APIs for Blog Management
+ * APIs for blog Management
  *
  * @authenticated
  */
@@ -65,12 +65,12 @@ class BlogsController extends APIController
     }
 
     /**
-     * Gives a specific Blog.
+     * Gives a specific blog.
      *
-     * This endpoint provides you a single Blog
-     * The Blog is identified based on the ID provided as url parameter.
+     * This endpoint provides you a single blog
+     * The blog is identified based on the ID provided as url parameter.
      *
-     * @urlParam id required The ID of the Blog
+     * @urlParam id required The ID of the blog
      *
      * @responseFile status=401 scenario="api_key not provided" responses/unauthenticated.json
      * @responseFile responses/blog/blog-show.json
@@ -85,9 +85,9 @@ class BlogsController extends APIController
     }
 
     /**
-     * Create a new Blog.
+     * Create a new blog.
      *
-     * This endpoint lets you create new Blog
+     * This endpoint lets you create new blog
      *
      * @responseFile status=401 scenario="api_key not provided" responses/unauthenticated.json
      * @responseFile status=201 responses/blog/blog-store.json
@@ -104,12 +104,12 @@ class BlogsController extends APIController
     }
 
     /**
-     * Update Blog.
+     * Update blog.
      *
-     * This endpoint allows you to update existing Blog with new data.
-     * The Blog to be updated is identified based on the ID provided as url parameter.
+     * This endpoint allows you to update existing blog with new data.
+     * The blog to be updated is identified based on the ID provided as url parameter.
      *
-     * @urlParam id required The ID of the Blog
+     * @urlParam id required The ID of the blog
      *
      * @responseFile status=401 scenario="api_key not provided" responses/unauthenticated.json
      * @responseFile responses/blog/blog-update.json
@@ -125,12 +125,12 @@ class BlogsController extends APIController
     }
 
     /**
-     * Delete Blog.
+     * Delete blog.
      *
-     * This endpoint allows you to delete a Blog
-     * The Blog to be deleted is identified based on the ID provided as url parameter.
+     * This endpoint allows you to delete a blog
+     * The blog to be deleted is identified based on the ID provided as url parameter.
      *
-     * @urlParam id required The ID of the Blog
+     * @urlParam id required The ID of the blog
      *
      * @responseFile status=401 scenario="api_key not provided" responses/unauthenticated.json
      * @responseFile status=204 scenario="When the record is deleted" responses/blog/blog-destroy.json

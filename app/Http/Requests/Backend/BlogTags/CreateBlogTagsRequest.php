@@ -40,8 +40,8 @@ class CreateBlogTagsRequest extends FormRequest
     {
         return [
             'name.unique' => __('exceptions.backend.blog-tag.already_exists'),
-            'name.required' => 'Please insert Blog Tag',
-            'name.max' => 'Blog tag may not be greater than 191 characters.',
+            'name.required' => 'Please insert blog Tag',
+            'name.max' => 'blog tag may not be greater than 191 characters.',
         ];
     }
 }

@@ -40,9 +40,9 @@ class StoreBlogCategoriesRequest extends FormRequest
     public function messages()
     {
         return [
-            'name.required' => 'Blog category name must required',
-            'name.unique' => 'Blog category name already exist.',
-            'name.max' => 'Blog category may not be greater than 191 characters.',
+            'name.required' => 'blog category name must required',
+            'name.unique' => 'blog category name already exist.',
+            'name.max' => 'blog category may not be greater than 191 characters.',
         ];
     }
 

@@ -51,24 +51,24 @@ return [
         ],
 
         'blogs' => [
-            // 'already_exists' => 'That Blog already exists. Please choose a different name.',
-            'create_error' => 'There was a problem creating this Blog. Please try again.',
-            'delete_error' => 'There was a problem deleting this Blog. Please try again.',
-            'update_error' => 'There was a problem updating this Blog. Please try again.',
+            // 'already_exists' => 'That blog already exists. Please choose a different name.',
+            'create_error' => 'There was a problem creating this blog. Please try again.',
+            'delete_error' => 'There was a problem deleting this blog. Please try again.',
+            'update_error' => 'There was a problem updating this blog. Please try again.',
         ],
 
         'blog-category' => [
-            'already_exists' => 'That Blog Category already exists. Please choose a different name.',
-            'create_error' => 'There was a problem creating this Blog Category. Please try again.',
-            'delete_error' => 'There was a problem deleting this Blog Category. Please try again.',
-            'update_error' => 'There was a problem updating this Blog Category. Please try again.',
+            'already_exists' => 'That blog Category already exists. Please choose a different name.',
+            'create_error' => 'There was a problem creating this blog Category. Please try again.',
+            'delete_error' => 'There was a problem deleting this blog Category. Please try again.',
+            'update_error' => 'There was a problem updating this blog Category. Please try again.',
         ],
 
         'blog-tag' => [
-            'already_exists' => 'That Blog Tag already exists. Please choose a different name.',
-            'create_error' => 'There was a problem creating this Blog Tag. Please try again.',
-            'delete_error' => 'There was a problem deleting this Blog Tag. Please try again.',
-            'update_error' => 'There was a problem updating this Blog Tag. Please try again.',
+            'already_exists' => 'That blog Tag already exists. Please choose a different name.',
+            'create_error' => 'There was a problem creating this blog Tag. Please try again.',
+            'delete_error' => 'There was a problem deleting this blog Tag. Please try again.',
+            'update_error' => 'There was a problem updating this blog Tag. Please try again.',
         ],
 
         'pages' => [

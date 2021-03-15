@@ -40,9 +40,9 @@ class UpdateBlogCategoriesRequest extends FormRequest
     public function messages()
     {
         return [
-            'name.unique' => 'Blog category name already exists, please enter a different name.',
-            'name.required' => 'Please insert Blog Title',
-            'name.max' => 'Blog category may not be greater than 191 characters.',
+            'name.unique' => 'blog category name already exists, please enter a different name.',
+            'name.required' => 'Please insert blog Title',
+            'name.max' => 'blog category may not be greater than 191 characters.',
         ];
     }
 

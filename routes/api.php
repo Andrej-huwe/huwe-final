@@ -39,10 +39,10 @@ Route::group(['namespace' => 'Api\V1', 'prefix' => 'v1', 'as' => 'v1.'], functio
         // Faqs
         Route::apiResource('faqs', 'FaqsController');
 
-        // Blog Categories
+        // blog Categories
         Route::apiResource('blog-categories', 'BlogCategoriesController');
 
-        // Blog Tags
+        // blog Tags
         Route::apiResource('blog-tags', 'BlogTagsController');
 
         // Blogs

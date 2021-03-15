@@ -221,14 +221,14 @@ return [
                 ],
 
                 'blogs' => [
-                    'title' => 'Blog Title',
-                    'blog_categories' => 'Blog Categories',
+                    'title' => 'blog Title',
+                    'blog_categories' => 'blog Categories',
                     'publish_date_time' => 'Publish Date & Time',
                     'featured_image' => 'Featured Image',
                     'content' => 'Content',
                     'tags' => 'Tags',
                     'meta_title' => 'Meta Title',
-                    'slug' => 'Blog Slug',
+                    'slug' => 'blog Slug',
                     'cannonical_link' => 'Cannonical Link',
                     'meta_keywords' => 'Meta Keywords',
                     'meta_description' => 'Meta Description',

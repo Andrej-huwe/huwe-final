@@ -12,11 +12,11 @@ use App\Repositories\Backend\BlogTagsRepository;
 use Illuminate\Http\Response;
 
 /**
- * @group Blog Tag Management
+ * @group blog Tag Management
  *
  * Class BlogTagsController
  *
- * APIs for Blog Tag Management
+ * APIs for blog Tag Management
  *
  * @authenticated
  */
@@ -40,7 +40,7 @@ class BlogTagsController extends APIController
     }
 
     /**
-     * Get all Blog Tags.
+     * Get all blog Tags.
      *
      * This endpoint provides a paginated list of all blog tags. You can customize how many records you want in each
      * returned response as well as sort records based on a key in specific order.
@@ -65,12 +65,12 @@ class BlogTagsController extends APIController
     }
 
     /**
-     * Gives a specific Blog Tag.
+     * Gives a specific blog Tag.
      *
-     * This endpoint provides you a single Blog Tag
-     * The Blog Tag is identified based on the ID provided as url parameter.
+     * This endpoint provides you a single blog Tag
+     * The blog Tag is identified based on the ID provided as url parameter.
      *
-     * @urlParam id required The ID of the Blog Tag
+     * @urlParam id required The ID of the blog Tag
      *
      * @responseFile status=401 scenario="API token not provided" responses/unauthenticated.json
      * @responseFile responses/blog-tag/blog-tag-show.json
@@ -86,9 +86,9 @@ class BlogTagsController extends APIController
     }
 
     /**
-     * Create a new Blog Tag.
+     * Create a new blog Tag.
      *
-     * This endpoint lets you create new Blog Tag
+     * This endpoint lets you create new blog Tag
      *
      * @responseFile status=401 scenario="api_key not provided" responses/unauthenticated.json
      * @responseFile responses/blog-tag/blog-tag-store.json
@@ -105,12 +105,12 @@ class BlogTagsController extends APIController
     }
 
     /**
-     * Update Blog Tag.
+     * Update blog Tag.
      *
-     * This endpoint allows you to update existing Blog Tag with new data.
-     * The Blog Tag to be updated is identified based on the ID provided as url parameter.
+     * This endpoint allows you to update existing blog Tag with new data.
+     * The blog Tag to be updated is identified based on the ID provided as url parameter.
      *
-     * @urlParam id required The ID of the Blog Tag
+     * @urlParam id required The ID of the blog Tag
      *
      * @responseFile status=401 scenario="api_key not provided" responses/unauthenticated.json
      * @responseFile responses/blog-tag/blog-tag-update.json
@@ -128,12 +128,12 @@ class BlogTagsController extends APIController
     }
 
     /**
-     * Delete Blog Tag.
+     * Delete blog Tag.
      *
-     * This endpoint allows you to delete a Blog Tag
-     * The Blog Tag to be deleted is identified based on the ID provided as url parameter.
+     * This endpoint allows you to delete a blog Tag
+     * The blog Tag to be deleted is identified based on the ID provided as url parameter.
      *
-     * @urlParam id required The ID of the Blog Tag
+     * @urlParam id required The ID of the blog Tag
      *
      * @responseFile status=401 scenario="api_key not provided" responses/unauthenticated.json
      * @responseFile status=204 scenario="When the record is deleted" responses/blog-tag/blog-tag-destroy.json
