@@ -1,0 +1,9 @@
+﻿{
+  "agentId": 2,
+  "agentName": "Andrejs-MacBook-Air",
+  "poolId": 1,
+  "poolName": "Default",
+  "serverUrl": "https://pipelines.actions.githubusercontent.com/gBpCsYcq3Z1NaOwFVuiWzB85IaJk7jj1bbkvEgde7tvc8S9tP8",
+  "gitHubUrl": "https://github.com/Andrej-huwe/huwe-final",
+  "workFolder": "_work"
+}
