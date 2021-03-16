@@ -4,7 +4,7 @@
       <h1>Ďalšie spôsoby využitia stránky</h1>
       <b-row>
         <b-col>
-          <b-button block class="sendButton"><b-link href="/schools/!5">Quiz pre školy</b-link></b-button>
+          <b-button block class="sendButton"><b-link href="/schools/!a39fba51">Quiz pre školy</b-link></b-button>
         </b-col>
         <b-col>
           <b-button block class="sendButton"><b-link href="/dyslexia">Pomôcka pre ľudí s poruchou učenia</b-link></b-button>

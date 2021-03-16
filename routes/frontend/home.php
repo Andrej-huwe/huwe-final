@@ -13,6 +13,7 @@ use App\Http\Controllers\Frontend\User\LessonController;
 use App\Http\Controllers\Frontend\User\GrammarSiteController;
 use App\Http\Controllers\Frontend\User\GrammarSingleController;
 use App\Http\Controllers\Frontend\SchoolQuizController;
+use App\Http\Controllers\Frontend\ResultsController;
 use App\Http\Controllers\Frontend\DyslexiaController;
 
 
@@ -22,7 +23,7 @@ use App\Http\Controllers\Frontend\DyslexiaController;
  */
 Route::get('/', [HomeController::class, 'index'])->name('index');
 Route::get('schools/{id}',  [SchoolQuizController::class, 'index'])->name('schoolQuiz');
-Route::get('results',  [SchoolQuizController::class, 'index'])->name('schoolQuiz');
+Route::get('results',  [ResultsController::class, 'index'])->name('schoolQuiz');
 Route::get('dyslexia',  [DyslexiaController::class, 'index'])->name('dyslexia');
 Route::get('contact', [ContactController::class, 'index'])->name('contact');
 Route::post('contact/send', [ContactController::class, 'send'])->name('contact.send');

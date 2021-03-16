@@ -108,7 +108,7 @@
             {{answer}}
           </b-list-group-item>
         </b-list-group>
-        <form @submit="saveDataSchool()" action="/home">
+        <form @submit.prevent="saveDataSchool()">
           <div>
             <b-row align-h="between" class="button-group" v-if="hideElements">
               <b-col cols="3">
@@ -139,7 +139,14 @@
                 <h1 class="finish-text">{{formUser.name}}</h1>
                 <h1 class="finish-text">Získali ste: {{quizScore}}%</h1>
                 <h1>Čas ukončenia: {{endQuizTime}}</h1>
-                <button type="submit" href="/"  class="finish">Ukončiť</button>
+                <b-row>
+                  <b-col>
+                    <b-button :disabled="checkData" type="submit" class="finish">Ukončiť</b-button>
+                  </b-col>
+                  <b-col>
+                    <b-button :disabled="!checkData" href="/results" class="finish" style="background-color: #dc3545">Výsledky</b-button>
+                  </b-col>
+                </b-row>
               </div>
             </transition>
           </div>
@@ -176,7 +183,7 @@ export default {
         name: '',
       },
       canStart: false,
-      beginQuizTime: 0,
+      beginQuizTime: 33300,
       waitQuizTime: null,
       timerQuiz: null,
       endQuizTime: null,
@@ -239,9 +246,7 @@ export default {
         unlock_at: {},
         id: [],
       },
-      //Speech to text
-      btnAnswerSpeech: '',
-      btnAnswerText: 'Tap to speak'
+      checkData: false
     }
   },
   components: {
@@ -323,11 +328,12 @@ export default {
     saveDataSchool(){
       let data = new FormData();
       let schoolId = this.idOfSite
+      this.checkData = true
       if(schoolId.charAt(0) === '!'){
         schoolId = schoolId.slice(1)
       }
       data.append('user_name', this.schoolData.name)
-      data.append('school_id', schoolId)
+      data.append('school_id', this.idOfSite)
       data.append('user_surname', this.schoolData.surname)
       data.append('endTime', this.schoolData.endTime)
       data.append('points',   this.schoolData.points)
@@ -387,21 +393,18 @@ export default {
     submitAnswer() {
       this.increment()
       Vue.set(this.userResponses, this.questionIndex, this.selectedIndex);
-      console.log("User Responses" + this.userResponses);
-
     },
     shuffleAnswers() {
-      /*
+
       //Po stlačený "spať" aby sa nesputil "shuffle"
       if(this.shuffleActive == true){
         let answers = [...this.currentQuestion.incorrect_answers, this.currentQuestion.correct_answer]
         this.shuffledAnswers = _.shuffle(answers) // pracujeme s algoritmom z Lodash
         this.correctIndex = this.shuffledAnswers.indexOf(this.currentQuestion.correct_answer)  // "indexOf" nájde index správnej odpovede
         Vue.set(this.correctAnswers, this.questionIndex, this.correctIndex)
-        console.log('Correct Answers: ' + this.correctAnswers)
       }
 
-       */
+
 
     },
     endQuiz(){
@@ -426,7 +429,6 @@ export default {
         this.schoolData.endTime = this.endQuizTime
         this.endQuiz()
       }
-      console.log("index: "+ this.index + " length: " + this.questions.length)
     },
   },
 }

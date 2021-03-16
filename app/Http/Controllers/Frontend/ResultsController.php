@@ -7,13 +7,13 @@ use App\Http\Controllers\Controller;
 /**
  * Class HomeController.
  */
-class SchoolQuizController extends Controller
+class ResultsController extends Controller
 {
     /**
      * @return \Illuminate\View\View
      */
     public function index()
     {
-        return view('frontend.schoolQuiz');
+        return view('frontend.schoolResults');
     }
 }

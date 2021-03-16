@@ -1,5 +1,6 @@
 <template>
   <div class="container">
+    <h1 class="text-center">Školy - Vyhodnotenie testov</h1>
     <table class="table">
       <thead>
       <tr>
@@ -9,7 +10,6 @@
         <th>Priezvisko</th>
         <th>Body</th>
         <th>Ukončenie testu</th>
-        <th>Odpovede</th>
       </tr>
       </thead>
       <tbody>
@@ -20,7 +20,6 @@
           <td>{{data.user_surname}}</td>
           <td>{{data.points}}</td>
           <td>{{data.endTime}}</td>
-          <td>{{data.answers}}</td>
         </tr>
       </tbody>
     </table>
@@ -37,7 +36,6 @@ export  default {
     getDataSchool(){
       axios.get('/api/school').then((res) =>{
         this.schoolData = res.data
-        console.log(this.schoolData)
       }).catch((error) =>{
         console.log(error)
       })
