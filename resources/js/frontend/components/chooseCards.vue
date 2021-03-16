@@ -4,7 +4,7 @@
       <div>
         <b-card-group deck>
           <b-card
-              img-src= http://huwe.test/images/quiz_correct.jpg?f2381b0037263ece8eff761b8027da68
+              img-src= images/quiz_correct.jpg?f2381b0037263ece8eff761b8027da68
               img-alt="Image"
               img-top
               tag="article"
@@ -14,7 +14,7 @@
             <b-button class="next-page" href="/words" variant="primary">Slovička</b-button>
           </b-card>
           <b-card
-              img-src= https://huwe.test/images/quiz_correct_2.jpg?afaa3fc1f84d4344ce6ab03811572400
+              img-src= images/quiz_correct_2.jpg?afaa3fc1f84d4344ce6ab03811572400
               img-alt="Image"
               img-top
               tag="article"
@@ -25,7 +25,7 @@
           </b-card>
 
           <b-card
-              img-src= https://huwe.test/images/quiz_correct_3.jpg?15ed66d54ba7edc8766eed951ffae288
+              img-src= images/quiz_correct_3.jpg?15ed66d54ba7edc8766eed951ffae288
               img-alt="Image"
               img-top
               tag="article"

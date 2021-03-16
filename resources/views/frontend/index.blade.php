@@ -7,15 +7,16 @@
     <div class="section-main">
         <div class="jumbotron jumbotron-fluid text-right vertical-center">
             <div class="container flex-column">
-                <h1 class="masthead-heading text-uppercase mb-0">Učenie sa stáva <br> jednoduchším</h1>
-                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit<br>
-                    Etiam et purus a odio finibus bibendum in sit amet leo<br>
-                    Mauris feugiat erat tellus. behind the word mountains.</p>
-                <div class="btn-toolbar float-right" role="toolbar">
-                    <div class="btn-group">
-                       <a class="btn btn-start btn-lg text-white" href="{{route('frontend.auth.login')}}" class="nav-link {{ active_class(Route::is('frontend.auth.login')) }}">Začať</a>
-                    </div>
-                </div>
+                <b-row>
+                    <b-col></b-col>
+                    <b-col><h1 class="masthead-heading text-uppercase mb-0">Učenie sa stáva <br> jednoduchším</h1>
+                        <p class="lead">Huwe dáva možnosť zdokovaľovať sa v cudzom jazyku, vo vyučovaní na škôlkach, základných a stredných školách a zlepšiť prostredie pre ľudí s poruchami učenia. </p>
+                        <div class="btn-toolbar float-right" role="toolbar">
+                            <div class="btn-group">
+                                <a class="btn btn-start btn-lg text-white" href="{{route('frontend.auth.login')}}" class="nav-link {{ active_class(Route::is('frontend.auth.login')) }}">Začať</a>
+                            </div>
+                        </div></b-col>
+                </b-row>
             </div>
         </div>
     </div>
@@ -26,28 +27,24 @@
                 <h1 class="text-uppercase text-center">Učebná plán</h1>
                 <div class="row justify-content-md-center">
                     <div class="col col-md-3">
-                        <h2>Efektívnosť</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit
-                            Etiam et purus a odio finibus bibendum in sit amet leo</p>
+                        <h2>Cudzie jazyky</h2>
+                        <p>Umožnuje výučbu rozličných cudzích jazykov v materinskom jazyku</p>
                     </div>
                     <div class="col-md-6"></div>
                     <div class="col col-md-3">
-                        <h2>Efektívnosť</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit
-                            Etiam et purus a odio finibus bibendum in sit amet leo</p>
+                        <h2>Školy a škôlky</h2>
+                        <p>Prispieva funkciami stránky pre výučbu na škôlkach, základných a stredných školách</p>
                     </div>
                 </div>
                 <div class="row justify-content-md-center">
                     <div class="col col-md-3">
-                        <h2>Efektívnosť</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit
-                            Etiam et purus a odio finibus bibendum in sit amet leo</p>
+                        <h2>Dyslexia</h2>
+                        <p>Vytvára prostredie pre ľúdi s dyslexiou k prijateľnejšiemu spôsobu učenia</p>
                     </div>
                     <div class="col-md-6"></div>
                     <div class="col col-md-3">
-                        <h2>Efektívnosť</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit
-                            Etiam et purus a odio finibus bibendum in sit amet leo</p>
+                        <h2>Vzdelávací systém</h2>
+                        <p>Všetky čati webovej aplikácie sa snažia podporiť a zlepšiť vzdelávací systém</p>
                     </div>
                 </div>
             </div>
@@ -57,10 +54,12 @@
     <div class="information-page">
         <div class="jumbotron jumbotron-fluid text-right vertical-center mb-0">
             <div class="container flex-column">
-                <h1 class="masthead-heading">S kýmkoľkvek, kdekoľvek</h1>
-                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit<br>
-                    Etiam et purus a odio finibus bibendum in sit amet leo<br>
-                    Mauris feugiat erat tellus. behind the word mountains.</p>
+                <b-row>
+                    <b-col></b-col>
+                    <b-col>                <h1 class="masthead-heading">S kýmkoľkvek, kdekoľvek</h1>
+                        <p class="lead">Vždy keď chceš svoj čas urobiť produktívnym, stačí sa pripojiť na internet a začať pracovať na sebe</p>
+                    </b-col>
+                </b-row>
             </div>
         </div>
     </div>
@@ -72,11 +71,11 @@
             font-size: 3rem;
         }
         .section-main .jumbotron {
-            background: url("https://huwe.test/images/main-pagepsd.jpg?a6b3127c03ec1f9e734a9002e594ada2") no-repeat;
+            background: url("https://andywork.site/images/main-pagepsd.jpg?a6b3127c03ec1f9e734a9002e594ada2") no-repeat;
             width: 100%;
         }
         .plan-page .jumbotron {
-            background: url("https://huwe.test/images/our-plan.jpg?9873fd28658b0f41ead12c25c101b00e") no-repeat center center;
+            background: url("images/our-plan.png?9bb681750cbf622b1fc845460eebe072") no-repeat center center;
         }
         .plan-page .col {
             margin-bottom: 15%;
@@ -86,15 +85,15 @@
         }
         .information-page .jumbotron {
             width: 100%;
-            background: url("https://huwe.test/images/information.jpg?10bf8913d90bcf75d15f9a99b4429987") no-repeat left center;
-        }
-        footer .jumbotron {
-            height: 200px;
+            background: url("images/information.jpg?022b1f123551ac76e25da7112c3fe789") no-repeat left center;
         }
         .jumbotron {
             width: 100%;
             height: 768px;
             background-size: 100% 100%;
+        }
+        .footer .jumbotron{
+            height: 300px;
         }
         .vertical-center {
             min-height: 100%;
@@ -119,3 +118,4 @@
         }
     </style>
 @endsection
+

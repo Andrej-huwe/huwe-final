@@ -4,7 +4,7 @@
       <b-modal ref="modal-info" id="modal-info-1" size="lg" title="Začiatočné informácie" ok-only>
         <div class="d-block text-center">
           <h3>Porucha učenia:</h3>
-          <p class="my-2">Sekcia pre ľúdi s poruchou učenia (presnejšie ľudí s Dyslexiou), slúži na trénovanie čítania. Systém funguje tak, že užívateľ si myšou na počítači označí text, ktorý chce, aby systém "prečítal". Vďaka tomuto môže trénovať čitateľské schopnosti.</p>
+          <p class="my-2">Sekcia pre ľúdi s poruchou učenia (presnejšie ľudí s Dyslexiou), slúži na trénovanie čítania. Systém funguje tak, že užívateľ si myšou na počítači označí text, ktorý chce, aby systém "prečítal". Vďaka tomuto môže trénovať čitateľské schopnosti. Výhoda je tá, že môže bez poroznosti spolužiakov sa pomýliť. </p>
           <b-img center :src="modalImgExplanation" fluid></b-img>
         </div>
       </b-modal>

@@ -73,9 +73,7 @@ import 'vue-loading-overlay/dist/vue-loading.css';
         return {
           time: 3, //in seconds
           timer: null,
-          imgOne: require('../../../img/index/information.jpg'),
-          imgTwo: require('../../../img/index/our-plan.jpg'),
-          imgThree: require('../../../img/index/main-pagepsd.jpg'),
+          imgFive: require('../../../img/index/information.jpg'),
           color: '#622161',
           backgroundColor: 'none',
           loader: 'bars',

@@ -24,35 +24,21 @@
   <component name="ChangeListManager">
     <list default="true" id="48a8e1b5-5627-414b-9de2-c3c18db5597e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Api/V1/BlogCategoriesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/V1/BlogCategoriesController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Api/V1/BlogTagsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/V1/BlogTagsController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Api/V1/BlogsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/V1/BlogsController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Requests/Backend/BlogCategories/StoreBlogCategoriesRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/Backend/BlogCategories/StoreBlogCategoriesRequest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Requests/Backend/BlogCategories/UpdateBlogCategoriesRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/Backend/BlogCategories/UpdateBlogCategoriesRequest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Requests/Backend/BlogTags/CreateBlogTagsRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/Backend/BlogTags/CreateBlogTagsRequest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Requests/Backend/BlogTags/StoreBlogTagsRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/Backend/BlogTags/StoreBlogTagsRequest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Requests/Backend/BlogTags/UpdateBlogTagsRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/Backend/BlogTags/UpdateBlogTagsRequest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Requests/Backend/Blogs/CreateBlogsRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/Backend/Blogs/CreateBlogsRequest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Requests/Backend/Blogs/StoreBlogsRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/Backend/Blogs/StoreBlogsRequest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Requests/Backend/Blogs/UpdateBlogsRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/Backend/Blogs/UpdateBlogsRequest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Listeners/Backend/Blogs/BlogEventListener.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Listeners/Backend/Blogs/BlogEventListener.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeds/Auth/PermissionRoleSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/Auth/PermissionRoleSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeds/Auth/PermissionTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/Auth/PermissionTableSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/backend-custom.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/backend-custom.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/backend/admin.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/backend/admin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/frontend/components/Quiz/Questions.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/frontend/components/Quiz/Questions.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/en/exceptions.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/en/exceptions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/en/labels.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/en/labels.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/en/menus.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/en/menus.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/en/validation.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/en/validation.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/frontend/user/Blog/grammar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/user/blog/grammar.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/frontend/user/Blog/single.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/user/blog/single.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/backend/BlogCategories.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/backend/BlogCategories.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/backend/BlogTags.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/backend/BlogTags.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Feature/Api/BlogCategoriesControllerTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Feature/Api/BlogCategoriesControllerTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Feature/Api/BlogTagsControllerTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Feature/Api/BlogTagsControllerTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Feature/Api/BlogsControllerTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Feature/Api/BlogsControllerTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/information.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/information.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/backend.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/backend.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/frontend.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/frontend.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/img/index/information.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/resources/img/index/information.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/img/index/our-plan.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/frontend/components/Dyslexia.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/frontend/components/Dyslexia.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/frontend/components/ExampleComponent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/frontend/components/ExampleComponent.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/frontend/components/Quiz/Body.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/frontend/components/Quiz/Body.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/frontend/components/Quiz/School.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/frontend/components/Quiz/School.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/frontend/components/chooseCards.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/frontend/components/chooseCards.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/frontend/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/frontend/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/layouts/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/frontend/layouts/appQuiz.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/layouts/appQuiz.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -313,7 +299,8 @@
       <workItem from="1615668197506" duration="1822000" />
       <workItem from="1615670955016" duration="843000" />
       <workItem from="1615744514657" duration="2236000" />
-      <workItem from="1615813949958" duration="2228000" />
+      <workItem from="1615813949958" duration="2469000" />
+      <workItem from="1615905791957" duration="2747000" />
     </task>
     <servers />
   </component>
@@ -330,16 +317,17 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="458" y="201" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1615566678972">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="458" y="201" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1440.0.1280.1024/0.0.1440.900@0.0.1440.900" timestamp="1615566678972" />
-    <state x="1782" y="223" width="670" height="770" key="search.everywhere.popup" timestamp="1615846312957">
-      <screen x="1440" y="0" width="1280" height="1024" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1615910610313">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/1440.0.1280.1024/0.0.1440.900@0.0.1440.900" timestamp="1615669921440" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/1440.0.1280.1024/0.0.1440.900@0.0.1440.900" timestamp="1615910610313" />
     <state x="1782" y="223" width="670" height="770" key="search.everywhere.popup/1440.0.1280.1024/0.0.1440.900@1440.0.1280.1024" timestamp="1615846312957" />
   </component>
 </project>

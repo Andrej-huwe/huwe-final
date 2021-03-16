@@ -154,14 +154,12 @@ export default {
       userResponses: null,
       correctAnswers: null,
 
-      imageBg: "https://huwe.test/images/quiz-background.png?4c8accaf28fac92cf21bc4fa2ca0de57",
-      //imageBg: require('../../../../img/quiz-background.png'),
+      imageBg: "https://andywork.site/images/quiz-background.png?4c8accaf28fac92cf21bc4fa2ca0de57",
       sterilizedImageBg: null,
-      imageBg2: "https://huwe.test/images/quiz-background-2.jpg?2c7afdbd1effccb15507ffc3b47c71b8",
-      dsdsdsdiiid: require('../../../../img/character-animation-2.png'),
+      imageBg2: "https://andywork.site/images/quiz-background-2.jpg?2c7afdbd1effccb15507ffc3b47c71b8",
 
       //Character Respo Correct
-      charaImageCorrect: "https://huwe.test/images/respo-chara-correct.png?caec35523b37c9b45d7a9f0c0d47744d",
+      charaImageCorrect: "https://andywork.site/images/respo-chara-correct.png?caec35523b37c9b45d7a9f0c0d47744d",
       charaCorrectStyle: "margin-top: 20%",
       //Type of site
       typeOfSite: window.location.href.split('/').pop(),
@@ -857,7 +855,7 @@ body {
 h1 {
   font-family: 'Poppins', sans-serif;
 }.characterCorrect {
-   background-image: url("https://huwe.test/images/character-animation.png?89c7b6042500dcb8c4a67cb272eccb87");
+   background-image: url("https://andywork.site/images/character-animation.png?89c7b6042500dcb8c4a67cb272eccb87");
    position: absolute;
    z-index: 100;
    width: 93%;
@@ -870,7 +868,7 @@ h1 {
    animation-duration: 1.2s;
  }
 .characterInCorrect{
-  background-image: url("https://huwe.test/images/character-animation-2.png?a8e6b0a81d8199ebf8474b406fb27aa4");
+  background-image: url("https://andywork.site/images/character-animation-2.png?a8e6b0a81d8199ebf8474b406fb27aa4");
   position: absolute;
   z-index: 100;
   width: 93%;
