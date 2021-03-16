@@ -20,6 +20,7 @@ Vue.component('choose-cards', require('./components/chooseCards.vue').default);
 Vue.component('level-vue', require('./components/Level.vue').default);
 Vue.component('quiz-body', require('./components/Quiz/Body.vue').default);
 Vue.component('quiz-questions', require('./components/Quiz/Questions.vue').default);
+Vue.component('school-results', require('./components/Quiz/SchoolResults.vue').default);
 Vue.component('awards', require('./components/Awards.vue').default);
 Vue.component('awards-new', require('./components/AwardsNew.vue').default);
 Vue.component('quiz-header', require('./components/Quiz/Header.vue').default);

@@ -5,4 +5,5 @@
 @section('content')
     <level-vue></level-vue>
     <check-width></check-width>
+    <school-results></school-results>
 @endsection
