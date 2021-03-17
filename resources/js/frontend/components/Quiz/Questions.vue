@@ -29,7 +29,6 @@
                    :background-color="backgroundColor"
                    :is-full-page="fullPage"></loading>
         </b-button>
-
         <b-list-group-item
             v-if="typeQuestion"
             v-for="(answer, index) in shuffledAnswers"
@@ -41,6 +40,7 @@
           {{answer}}
         </b-list-group-item>
       </b-list-group>
+      <h2 v-if="!typeQuestion">Tvoja odpoveď: {{txtSpeech}}</h2>
       <form @submit=" updateData()" action="/home">
         <div class="quiz-button">
           <b-button
@@ -76,6 +76,7 @@ import 'vue-loading-overlay/dist/vue-loading.css';
 export default {
   data() {
     return {
+      txtSpeech: "---",
       chooseCharacter: false,
       sectionOfSite: window.location.href.split('/'),
       color: '#622161',
@@ -405,7 +406,7 @@ export default {
 
         recognition.onstart = function() {
           setTimeout(() => {
-            bus.$emit('answered', 0);
+            bus.$emit('checkAnswered', 0);
             recognition.stop()
           }, 8000)
         };
@@ -418,11 +419,12 @@ export default {
           } else {
             bus.$emit('answered', 0);
           }
+          bus.$emit('txtAnswered', transcript)
         };
 
         recognition.start();
       } else {
-        console.log("Hlasovné rozpoznávanie nie je podporované... 😢");
+        alert("Hlasovné rozpoznávanie nie je podporované... 😢");
       }
     },
 
@@ -483,14 +485,26 @@ export default {
       this.isLoading = false
       this.btnAnswerText = 'Tap to speak'
       this.answerClassSpeech(data)
-    })
+    }),
+    bus.$on('txtAnswered', (data) => {
+      this.txtSpeech = data
+    }),
+        bus.$on('checkAnswered', (data) => {
+          if(this.answered != true){
+            this.increment(data)
+            this.answered = true
+            this.isLoading = false
+            this.btnAnswerText = 'Tap to speak'
+            this.answerClassSpeech(data)
+          }
+        })
   },
 }
 </script>
 
 <style scoped>
 .vld-overlay {
-  top: 36px;
+  top: 25px;
 }
 .bounce-enter-active {
   animation: bounce-in .5s;

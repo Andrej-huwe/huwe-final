@@ -2,8 +2,6 @@
 
 namespace App\Http\Controllers;
 
-use App\Award;
-use App\Question;
 use App\Score;
 use Illuminate\Http\Request;
 

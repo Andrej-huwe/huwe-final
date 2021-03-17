@@ -26,11 +26,9 @@
           <th scope="col">Skóre vo vetách</th>
           </thead>
           <tbody>
-          <tr>
-            <td>{{score.total_score}}</td>
+            <th scope="row">{{score.total_score}}</th>
             <td>{{score.words_score}}</td>
             <td>{{score.sentences_score}}</td>
-          </tr>
           </tbody>
         </table>
       </div>
@@ -75,7 +73,11 @@ export default {
       statusOld: "old",
       idOfUser: Vue.prototype.$userId = document.querySelector("meta[name='user_id']").getAttribute('content'),
       testScore: null,
-      score: [],
+      score: {
+        total_score: [],
+        words_score: [],
+        sentences_score: []
+      },
       badges: {
         length: [],
         data: [],
@@ -103,7 +105,12 @@ export default {
       let index = this.idOfUser
       index--
       axios.get('/api/score').then((res) =>{
-        this.score = res.data[index]
+        //this.score = res.data[index]
+        this.score.total_score = res.data[index].total_score
+        this.score.words_score = res.data[index].words_score
+        this.score.sentences_score = res.data[index].sentences_score
+        this.score.
+        console.log(this.score)
       }).catch((error) =>{
         console.log(error)
       })

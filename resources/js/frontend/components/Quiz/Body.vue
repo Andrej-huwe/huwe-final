@@ -165,7 +165,9 @@ export default {
       typeOfSite: window.location.href.split('/').pop(),
       sectionOfSite: window.location.href.split('/'),
       //Quiz
-      questions: [],
+      questions: [ {
+        question: "Default Questions"
+      }],
       questionsWordOdd: [
         {
           question:"Otec",
