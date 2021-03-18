@@ -399,6 +399,7 @@ export default {
 
     },
     submitSpeech(){
+
       if ("speechSynthesis" in window) {
         let answer = this.currentQuestion.correct_answer
         let SpeechRecognition = SpeechRecognition || webkitSpeechRecognition;
@@ -426,6 +427,7 @@ export default {
       } else {
         alert("Hlasovné rozpoznávanie nie je podporované... 😢");
       }
+
     },
 
     submitAnswer() {
@@ -486,9 +488,12 @@ export default {
       this.btnAnswerText = 'Tap to speak'
       this.answerClassSpeech(data)
     }),
+        /*
     bus.$on('txtAnswered', (data) => {
       this.txtSpeech = data
     }),
+
+         */
         bus.$on('checkAnswered', (data) => {
           if(this.answered != true){
             this.increment(data)

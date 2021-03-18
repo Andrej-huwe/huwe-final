@@ -10,7 +10,7 @@
           </div>
           <div class="modal-user" v-if="typeOfSite[4] === 'quiz'">
             <h3>Na čo slúži <strong>quiz pre registrovaného uživateľa</strong>:</h3>
-            <p class="my-2">Každý registrovaná užívateľ bude mať možnosť zdokonaľovať sa v cudzom jazyku. V quize užívateľ bude odpoveď na otázky za účelom, aby získal nové vedomosti v danom jazyku. Odpovede sa budú môcť označovať a taktiež diktovať. Možnosť nadstavenia quizu je samozrejmá. </p>
+            <p class="my-2">Každý registrovaná užívateľ bude mať možnosť zdokonaľovať sa v cudzom jazyku. V quize užívateľ bude odpoveď na otázky za účelom, aby získal nové vedomosti v danom jazyku. Odpovede sa budú môcť označovať a taktiež diktovať(Iba v prípade, ak uživateľ používa internetový prehliadaľ <strong>CHROME</strong>). Možnosť nadstavenia quizu je samozrejmá.</p>
           </div>
         </div>
       </b-modal>
@@ -363,7 +363,10 @@ export default {
       this.startQuizTime = new Date()
     },
     toInformation(){
-      this.showForm = false
+      this.$nextTick(function () {
+        this.showForm = false
+      })
+
       this.showInfo = true
     },
     decrementOrAlert () {
@@ -395,7 +398,7 @@ export default {
       Vue.set(this.userResponses, this.questionIndex, this.selectedIndex);
     },
     shuffleAnswers() {
-
+/*
       //Po stlačený "spať" aby sa nesputil "shuffle"
       if(this.shuffleActive == true){
         let answers = [...this.currentQuestion.incorrect_answers, this.currentQuestion.correct_answer]
@@ -404,6 +407,8 @@ export default {
         Vue.set(this.correctAnswers, this.questionIndex, this.correctIndex)
       }
 
+
+ */
 
 
     },

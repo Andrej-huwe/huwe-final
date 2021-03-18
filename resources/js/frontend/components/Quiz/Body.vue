@@ -791,11 +791,21 @@ export default {
       this.checkAnimation = true
       this.time = false
       if(this.numTotal === this.number && this.typeOfSite%2 !==  0){
-        this.typeQuestion = false
-
+        //this.typeOfQuestion = false
+        this.checkChromeBrowser()
       } else {
         this.typeQuestion = true
       }
+    },
+    checkChromeBrowser(){
+      var isChrome = !!window.chrome && (!!window.chrome.webstore || !!window.chrome.runtime);
+      if(isChrome == true){
+        this.typeQuestion = false
+      } else {
+        this.typeQuestion = true
+      }
+      console.log("Browswr: " + this.typeQuestion)
+      return this.typeQuestion
     },
     nextForSchool(){
       this.index++
@@ -833,7 +843,6 @@ export default {
   },
   mounted(){
     //https://opentdb.com/api.php?amount=10&category=27&type=multiple
-
     this.changeQuestions()
     this.date_function()
     this.randomNumber()

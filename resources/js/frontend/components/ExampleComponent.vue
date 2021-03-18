@@ -89,97 +89,13 @@ import 'vue-loading-overlay/dist/vue-loading.css';
         }
       },
       components: {
-        Loading
+
       },
       computed: {
-        timeLeft () {
-          return `${this.minutes} minutes ${this.seconds} seconds`
-        },
-        minutes () {
-          return String(Math.floor(this.time / 60)).padStart(2, '0')
-        },
-        seconds () {
-          return String(this.time % 60).padStart(2, '0')
-        }
-      },
-      created () {
-        this.timer = setInterval(this.decrementOrAlert, 1000)
+
       },
       methods: {
-        decrementOrAlert () {
-          if (this.time > 0) {
-            this.time--
-            return
-          }
 
-          console.log("Times up...")
-          clearInterval(this.timer)
-        },
-        doAjax() {
-          this.isLoading = true;
-          // simulate AJAX
-          setTimeout(() => {
-            this.isLoading = false
-          },2000)
-        },
-        onCancel() {
-          console.log('User cancelled the loader.')
-        },
-        addToTest(){
-          this.form.title++
-        },
-        toggleTodo(e){
-          e.completed = !e.completed
-          let data = new FormData();
-          data.append('_method', 'PATCH')
-          if(e.completed == true){
-            data.append('completed', this.test);
-          }
-          if(e.completed == false){
-            data.append('completed', 0);
-          }
-          axios.post('/api/todo/' + e.id, data)
-        },
-        getTodos(){
-          axios.get('/api/questions').then((res) =>{
-            this.todos = res.data
-          }).catch((error) =>{
-            console.log(error)
-          })
-        },
-        saveData(){
-          let data = new FormData()
-          data.append('title', this.form.title)
-          axios.post('/api/todo', data).then((res) =>{
-            this.form.reset()
-            this.getTodos()
-          })
-        },
-        speechLoud(){
-          var btnSpeak = document.querySelector('#btnSpeak');
-          var synth = window.speechSynthesis;
-          var voices = [];
-
-          PopulateVoices();
-          if(speechSynthesis !== undefined){
-            speechSynthesis.onvoiceschanged = PopulateVoices;
-          }
-
-          btnSpeak.addEventListener('click', ()=> {
-            var toSpeak = new SpeechSynthesisUtterance("My name is Andy, and yours?");
-            var selectedVoiceName =  'Google UK English Female';
-            voices.forEach((voice)=>{
-              if(voice.name === selectedVoiceName){
-                toSpeak.voice = voice;
-              }
-            });
-            synth.speak(toSpeak);
-          });
-
-          function PopulateVoices(){
-            voices = synth.getVoices();
-          }
-        },
         speech(){
           var message = document.querySelector('#message');
 
@@ -236,10 +152,5 @@ import 'vue-loading-overlay/dist/vue-loading.css';
     }
 </script>
 <style>
-.vld-parent {
-  width: 50%;
-  background-color: black;
-  height: 50%;
-  margin: auto;
-}
+
 </style>
