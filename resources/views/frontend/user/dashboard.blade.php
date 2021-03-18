@@ -13,8 +13,6 @@
 
     <check-width></check-width>
 
-    <example-component></example-component>
-
     <footer-vue></footer-vue>
 
 @endsection
