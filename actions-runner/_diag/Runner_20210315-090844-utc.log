@@ -1,0 +1,136 @@
+[2021-03-15 09:08:44Z INFO HostContext] No proxy settings were found based on environmental variables (http_proxy/https_proxy/HTTP_PROXY/HTTPS_PROXY)
+[2021-03-15 09:08:44Z INFO HostContext] Well known directory 'Bin': '/Users/andrejhurta/Projects/testFungovania/huwe gitHub/actions-runner/bin'
+[2021-03-15 09:08:44Z INFO HostContext] Well known directory 'Root': '/Users/andrejhurta/Projects/testFungovania/huwe gitHub/actions-runner'
+[2021-03-15 09:08:44Z INFO HostContext] Well known config file 'Credentials': '/Users/andrejhurta/Projects/testFungovania/huwe gitHub/actions-runner/.credentials'
+[2021-03-15 09:08:45Z INFO Listener] Runner is built for OSX (X64) - osx-x64.
+[2021-03-15 09:08:45Z INFO Listener] RuntimeInformation: Darwin 20.3.0 Darwin Kernel Version 20.3.0: Thu Jan 21 00:07:06 PST 2021; root:xnu-7195.81.3~1/RELEASE_X86_64.
+[2021-03-15 09:08:45Z INFO Listener] Version: 2.277.1
+[2021-03-15 09:08:45Z INFO Listener] Commit: 183a3dd9a0d4d51feddc5fe9fa6c3b5f8b08343d
+[2021-03-15 09:08:45Z INFO Listener] Culture: 
+[2021-03-15 09:08:45Z INFO Listener] UI Culture: 
+[2021-03-15 09:08:45Z INFO HostContext] Well known directory 'Bin': '/Users/andrejhurta/Projects/testFungovania/huwe gitHub/actions-runner/bin'
+[2021-03-15 09:08:45Z INFO HostContext] Well known directory 'Root': '/Users/andrejhurta/Projects/testFungovania/huwe gitHub/actions-runner'
+[2021-03-15 09:08:45Z INFO Listener] Validating directory permissions for: '/Users/andrejhurta/Projects/testFungovania/huwe gitHub/actions-runner'
+[2021-03-15 09:08:45Z INFO CommandLineParser] Parse
+[2021-03-15 09:08:45Z INFO CommandLineParser] Parsing 1 args
+[2021-03-15 09:08:45Z INFO CommandLineParser] parsing argument
+[2021-03-15 09:08:45Z INFO CommandLineParser] HasArgs: False
+[2021-03-15 09:08:45Z INFO CommandLineParser] Adding Command: run
+[2021-03-15 09:08:45Z INFO Listener] Arguments parsed
+[2021-03-15 09:08:45Z INFO Runner] ExecuteCommand
+[2021-03-15 09:08:45Z INFO ConfigurationStore] currentAssemblyLocation: /Users/andrejhurta/Projects/testFungovania/huwe gitHub/actions-runner/bin/Runner.Listener.dll
+[2021-03-15 09:08:45Z INFO HostContext] Well known directory 'Bin': '/Users/andrejhurta/Projects/testFungovania/huwe gitHub/actions-runner/bin'
+[2021-03-15 09:08:45Z INFO ConfigurationStore] binPath: /Users/andrejhurta/Projects/testFungovania/huwe gitHub/actions-runner/bin
+[2021-03-15 09:08:45Z INFO HostContext] Well known directory 'Bin': '/Users/andrejhurta/Projects/testFungovania/huwe gitHub/actions-runner/bin'
+[2021-03-15 09:08:45Z INFO HostContext] Well known directory 'Root': '/Users/andrejhurta/Projects/testFungovania/huwe gitHub/actions-runner'
+[2021-03-15 09:08:45Z INFO ConfigurationStore] RootFolder: /Users/andrejhurta/Projects/testFungovania/huwe gitHub/actions-runner
+[2021-03-15 09:08:45Z INFO HostContext] Well known directory 'Bin': '/Users/andrejhurta/Projects/testFungovania/huwe gitHub/actions-runner/bin'
+[2021-03-15 09:08:45Z INFO HostContext] Well known directory 'Root': '/Users/andrejhurta/Projects/testFungovania/huwe gitHub/actions-runner'
+[2021-03-15 09:08:45Z INFO HostContext] Well known config file 'Runner': '/Users/andrejhurta/Projects/testFungovania/huwe gitHub/actions-runner/.runner'
+[2021-03-15 09:08:45Z INFO ConfigurationStore] ConfigFilePath: /Users/andrejhurta/Projects/testFungovania/huwe gitHub/actions-runner/.runner
+[2021-03-15 09:08:45Z INFO HostContext] Well known directory 'Bin': '/Users/andrejhurta/Projects/testFungovania/huwe gitHub/actions-runner/bin'
+[2021-03-15 09:08:45Z INFO HostContext] Well known directory 'Root': '/Users/andrejhurta/Projects/testFungovania/huwe gitHub/actions-runner'
+[2021-03-15 09:08:45Z INFO HostContext] Well known config file 'Credentials': '/Users/andrejhurta/Projects/testFungovania/huwe gitHub/actions-runner/.credentials'
+[2021-03-15 09:08:45Z INFO ConfigurationStore] CredFilePath: /Users/andrejhurta/Projects/testFungovania/huwe gitHub/actions-runner/.credentials
+[2021-03-15 09:08:45Z INFO HostContext] Well known directory 'Bin': '/Users/andrejhurta/Projects/testFungovania/huwe gitHub/actions-runner/bin'
+[2021-03-15 09:08:45Z INFO HostContext] Well known directory 'Root': '/Users/andrejhurta/Projects/testFungovania/huwe gitHub/actions-runner'
+[2021-03-15 09:08:45Z INFO HostContext] Well known config file 'MigratedCredentials': '/Users/andrejhurta/Projects/testFungovania/huwe gitHub/actions-runner/.credentials_migrated'
+[2021-03-15 09:08:45Z INFO ConfigurationStore] MigratedCredFilePath: /Users/andrejhurta/Projects/testFungovania/huwe gitHub/actions-runner/.credentials_migrated
+[2021-03-15 09:08:45Z INFO HostContext] Well known directory 'Bin': '/Users/andrejhurta/Projects/testFungovania/huwe gitHub/actions-runner/bin'
+[2021-03-15 09:08:45Z INFO HostContext] Well known directory 'Root': '/Users/andrejhurta/Projects/testFungovania/huwe gitHub/actions-runner'
+[2021-03-15 09:08:45Z INFO HostContext] Well known config file 'Service': '/Users/andrejhurta/Projects/testFungovania/huwe gitHub/actions-runner/.service'
+[2021-03-15 09:08:45Z INFO ConfigurationStore] ServiceConfigFilePath: /Users/andrejhurta/Projects/testFungovania/huwe gitHub/actions-runner/.service
+[2021-03-15 09:08:45Z INFO CommandSettings] Flag 'help': 'False'
+[2021-03-15 09:08:45Z INFO CommandSettings] Flag 'version': 'False'
+[2021-03-15 09:08:45Z INFO CommandSettings] Flag 'commit': 'False'
+[2021-03-15 09:08:45Z INFO CommandSettings] Flag 'check': 'False'
+[2021-03-15 09:08:45Z INFO CommandSettings] Command 'configure': 'False'
+[2021-03-15 09:08:45Z INFO CommandSettings] Command 'remove': 'False'
+[2021-03-15 09:08:45Z INFO CommandSettings] Command 'warmup': 'False'
+[2021-03-15 09:08:45Z INFO ConfigurationManager] LoadSettings
+[2021-03-15 09:08:45Z INFO ConfigurationStore] IsConfigured()
+[2021-03-15 09:08:45Z INFO ConfigurationStore] IsConfigured: True
+[2021-03-15 09:08:45Z INFO ConfigurationManager] Is configured: True
+[2021-03-15 09:08:45Z INFO ConfigurationStore] Read setting file: 298 chars
+[2021-03-15 09:08:45Z INFO ConfigurationManager] Settings Loaded
+[2021-03-15 09:08:45Z INFO ConfigurationStore] IsServiceConfigured()
+[2021-03-15 09:08:45Z INFO ConfigurationStore] IsServiceConfigured: False
+[2021-03-15 09:08:45Z INFO CommandSettings] Command 'run': 'True'
+[2021-03-15 09:08:45Z INFO ConfigurationStore] IsConfigured()
+[2021-03-15 09:08:45Z INFO ConfigurationStore] IsConfigured: True
+[2021-03-15 09:08:45Z INFO ConfigurationManager] Is configured: True
+[2021-03-15 09:08:45Z INFO Runner] Could not parse the argument value '' for StartupType. Defaulting to Manual
+[2021-03-15 09:08:45Z INFO Runner] Set runner startup type - Manual
+[2021-03-15 09:08:45Z INFO CommandSettings] Flag 'once': 'False'
+[2021-03-15 09:08:45Z INFO Runner] RunAsync
+[2021-03-15 09:08:45Z INFO ConfigurationManager] LoadSettings
+[2021-03-15 09:08:45Z INFO ConfigurationStore] IsConfigured()
+[2021-03-15 09:08:45Z INFO ConfigurationStore] IsConfigured: True
+[2021-03-15 09:08:45Z INFO ConfigurationManager] Is configured: True
+[2021-03-15 09:08:45Z INFO ConfigurationManager] Settings Loaded
+[2021-03-15 09:08:45Z INFO MessageListener] {
+  "AgentId": 2,
+  "AgentName": "Andrejs-MacBook-Air",
+  "PoolId": 1,
+  "PoolName": "Default",
+  "ServerUrl": "https://pipelines.actions.githubusercontent.com/gBpCsYcq3Z1NaOwFVuiWzB85IaJk7jj1bbkvEgde7tvc8S9tP8",
+  "GitHubUrl": "https://github.com/Andrej-huwe/huwe-final",
+  "WorkFolder": "_work"
+}
+[2021-03-15 09:08:45Z INFO MessageListener] Loading Credentials
+[2021-03-15 09:08:45Z INFO ConfigurationStore] HasCredentials()
+[2021-03-15 09:08:45Z INFO ConfigurationStore] stored True
+[2021-03-15 09:08:45Z INFO CredentialManager] GetCredentialProvider
+[2021-03-15 09:08:45Z INFO CredentialManager] Creating type OAuth
+[2021-03-15 09:08:45Z INFO CredentialManager] Creating credential type: OAuth
+[2021-03-15 09:08:45Z INFO HostContext] Well known directory 'Bin': '/Users/andrejhurta/Projects/testFungovania/huwe gitHub/actions-runner/bin'
+[2021-03-15 09:08:45Z INFO HostContext] Well known directory 'Root': '/Users/andrejhurta/Projects/testFungovania/huwe gitHub/actions-runner'
+[2021-03-15 09:08:45Z INFO HostContext] Well known config file 'RSACredentials': '/Users/andrejhurta/Projects/testFungovania/huwe gitHub/actions-runner/.credentials_rsaparams'
+[2021-03-15 09:08:45Z INFO RSAFileKeyManager] Loading RSA key parameters from file /Users/andrejhurta/Projects/testFungovania/huwe gitHub/actions-runner/.credentials_rsaparams
+[2021-03-15 09:08:45Z INFO MessageListener] Attempt to create session.
+[2021-03-15 09:08:45Z INFO MessageListener] Connecting to the Runner Server...
+[2021-03-15 09:08:45Z INFO RunnerServer] Establish connection with 100 seconds timeout.
+[2021-03-15 09:08:45Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2021-03-15 09:08:45Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2021-03-15 09:08:45Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2021-03-15 09:08:45Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2021-03-15 09:08:45Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2021-03-15 09:08:45Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2021-03-15 09:08:45Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2021-03-15 09:08:46Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2021-03-15 09:08:46Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2021-03-15 09:08:46Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2021-03-15 09:08:46Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2021-03-15 09:08:46Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2021-03-15 09:08:46Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2021-03-15 09:08:46Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2021-03-15 09:08:46Z INFO MessageListener] VssConnection created
+[2021-03-15 09:08:46Z INFO Terminal] WRITE LINE: 
+[2021-03-15 09:08:46Z INFO Terminal] WRITE LINE: 
+[2021-03-15 09:08:46Z WARN GitHubActionsService] Authentication failed with status code 401.
+WWW-Authenticate: Bearer
+Strict-Transport-Security: max-age=2592000
+X-TFS-ProcessId: 05c86ea8-67c6-4b43-9151-df969d9db2af
+ActivityId: ad895e5f-8fe8-468e-b5db-e82c7c1ea56b
+X-TFS-Session: 2578bc77-641a-488a-9f57-67c58ff2d0f6
+X-VSS-E2EID: 6771b8b1-9220-4d6b-b619-b079a03645cd
+X-VSS-SenderDeploymentId: 2c974d96-2c30-cef5-eff2-3e0511a903a5
+X-TFS-ServiceError: The+user+%27System%3aPublicAccess%3baaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa%27+is+not+authorized+to+access+this+resource.
+X-VSS-S2STargetService: 0000005A-0000-8888-8000-000000000000/visualstudio.com
+X-MSEdge-Ref: Ref A: A5C36EC53D1043AB8BC0FCBF0277BAA7 Ref B: PRG01EDGE0816 Ref C: 2021-03-15T09:08:46Z
+Date: Mon, 15 Mar 2021 09:08:46 GMT
+
+[2021-03-15 09:08:46Z INFO RSAFileKeyManager] Loading RSA key parameters from file /Users/andrejhurta/Projects/testFungovania/huwe gitHub/actions-runner/.credentials_rsaparams
+[2021-03-15 09:08:46Z INFO RSAFileKeyManager] Loading RSA key parameters from file /Users/andrejhurta/Projects/testFungovania/huwe gitHub/actions-runner/.credentials_rsaparams
+[2021-03-15 09:08:47Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2021-03-15 09:08:47Z INFO MessageListener] Session created.
+[2021-03-15 09:08:47Z INFO Terminal] WRITE LINE: 2021-03-15 09:08:47Z: Listening for Jobs
+[2021-03-15 09:08:47Z INFO JobDispatcher] Set runner/worker IPC timeout to 30 seconds.
+[2021-03-15 09:10:43Z INFO Terminal] WRITE LINE: Exiting...
+[2021-03-15 09:10:43Z INFO ConfigurationStore] IsServiceConfigured()
+[2021-03-15 09:10:43Z INFO ConfigurationStore] IsServiceConfigured: False
+[2021-03-15 09:10:43Z INFO HostContext] Runner will be shutdown for UserCancelled
+[2021-03-15 09:10:43Z WARN GitHubActionsService] GET request to https://pipelines.actions.githubusercontent.com/gBpCsYcq3Z1NaOwFVuiWzB85IaJk7jj1bbkvEgde7tvc8S9tP8/_apis/distributedtask/pools/1/messages?sessionId=ac737755-afc1-43b9-913f-495a60a13fc6 has been cancelled.
+[2021-03-15 09:10:43Z INFO MessageListener] Get next message has been cancelled.
+[2021-03-15 09:10:43Z INFO JobDispatcher] Shutting down JobDispatcher. Make sure all WorkerDispatcher has finished.
+[2021-03-15 09:10:44Z INFO Listener] Runner execution been cancelled.
