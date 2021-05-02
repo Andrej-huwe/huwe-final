@@ -30,7 +30,9 @@ Vue.component('check-width', require('./components/ChangeWidth.vue').default);
 Vue.component('footer-vue', require('./components/Footer.vue').default);
 Vue.component('quiz-school', require('./components/Quiz/School.vue').default);
 Vue.component('send-behind', require('./components/SendBehind.vue').default);
-Vue.component('quiz-dyslexia', require('./components/Dyslexia.vue').default);
+Vue.component('quiz-dyslexia', require('./components/Dyslexia/Dyslexia.vue').default);
+Vue.component('dyslexia-body', require('./components/Dyslexia/Body.vue').default);
+Vue.component('dyslexia-questions', require('./components/Dyslexia/Questions.vue').default);
 
 
 

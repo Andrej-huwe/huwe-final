@@ -23,7 +23,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="48a8e1b5-5627-414b-9de2-c3c18db5597e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/resources/views/frontend/user/dashboard.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/user/dashboard.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Frontend/DyslexiaColorController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/frontend/components/Dyslexia/Body.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/frontend/components/Dyslexia/Questions.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/frontend/dyslexiaColor.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/frontend.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/frontend.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/frontend/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/frontend/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/frontend/components/Dyslexia.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/frontend/components/Dyslexia/Dyslexia.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/frontend/auth/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/auth/login.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/frontend/includes/nav.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/includes/nav.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/frontend/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/frontend/home.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -248,12 +258,13 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/app/Http/Controllers/Frontend" />
-      <recent name="$PROJECT_DIR$/resources/views/frontend" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/app/Http/Controllers/Frontend" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources/js/frontend/components/Dyslexia" />
+      <recent name="$PROJECT_DIR$/app/Http/Controllers/Frontend" />
+      <recent name="$PROJECT_DIR$/resources/views/frontend" />
     </key>
   </component>
   <component name="RunManager">
@@ -290,7 +301,9 @@
       <workItem from="1615914790415" duration="3080000" />
       <workItem from="1615967504529" duration="2410000" />
       <workItem from="1615973337198" duration="3998000" />
-      <workItem from="1616051145194" duration="582000" />
+      <workItem from="1616051145194" duration="857000" />
+      <workItem from="1616090468473" duration="4509000" />
+      <workItem from="1619953122765" duration="217000" />
     </task>
     <servers />
   </component>
@@ -322,10 +335,24 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="458" y="209" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/1440.0.1280.1024/0.0.1440.900@0.0.1440.900" timestamp="1615914437392" />
-    <state x="221" y="163" width="670" height="676" key="search.everywhere.popup" timestamp="1615977701062">
+    <state x="0" y="25" key="FileDocumentManager.FileCacheConflict" timestamp="1616091797984">
+      <screen x="0" y="25" width="1440" height="803" />
+    </state>
+    <state x="0" y="25" key="FileDocumentManager.FileCacheConflict/1440.25.1280.999/0.25.1440.803@0.25.1440.803" timestamp="1616091797984" />
+    <state x="0" y="0" width="1440" height="900" key="dock-window-1" timestamp="1616096715179">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="221" y="163" width="670" height="676" key="search.everywhere.popup/1440.0.1280.1024/0.0.1440.900@0.0.1440.900" timestamp="1615977701062" />
+    <state x="0" y="0" width="1440" height="900" key="dock-window-1/0.0.1440.900@0.0.1440.900" timestamp="1616096715179" />
+    <state x="1440" y="0" width="1280" height="1024" key="dock-window-1/1440.25.1280.999/0.0.1440.828@0.0.1440.828" timestamp="1616091628120" />
+    <state width="600" height="428" key="javadoc.popup" timestamp="1616095069176">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="600" height="428" key="javadoc.popup/1440.0.1280.1024/0.0.1440.900@0.0.1440.900" timestamp="1616095069176" />
+    <state x="221" y="163" width="670" height="676" key="search.everywhere.popup" timestamp="1619953349480">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="221" y="163" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1619953349480" />
+    <state x="221" y="163" width="670" height="676" key="search.everywhere.popup/1440.0.1280.1024/0.0.1440.900@0.0.1440.900" timestamp="1616092717321" />
     <state x="1782" y="223" width="670" height="770" key="search.everywhere.popup/1440.0.1280.1024/0.0.1440.900@1440.0.1280.1024" timestamp="1615846312957" />
   </component>
   <component name="XDebuggerManager">
